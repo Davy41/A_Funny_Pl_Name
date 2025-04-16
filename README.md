@@ -1,7 +1,7 @@
 # A_Funny_Pl_Name
 # A_Funny_Pl_Name
 
-**Database Development with PL/SQL (INSY 8311) – Assignment II**  
+**Database Development with PL/SQL (INSY 8311) – Group Assignment**  
 
 *Created by*: Ibambasi Ganza Pierre Davy 26427
 
