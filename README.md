@@ -9,7 +9,7 @@
 
 *concentration*: software engineering 
 1. Creating table and inserting data
-   ![Alt text](top3incategory.jpg)
+   ![Alt text](create.jpg)
 
    here we created and inserted data into a table using normal sql queries
 
