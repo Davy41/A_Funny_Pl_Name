@@ -47,3 +47,15 @@ We used RANK() to assign ranks based on scores in descending order.
 Only the top 3 ranked students were selected.
 
 Real-life application: This is useful for leaderboards, where we want to highlight top performers.
+
+5.Retrieve the First 2 Records from Each Category Based on Date
+
+![Alt text](retreive.jpg)
+
+In this query, we retrieved the first 2 records from each class based on the test_date.
+
+We used the ROW_NUMBER() window function to assign a unique row number to each student within each class, ordered by the test_date.
+
+The first 2 records per class are selected by filtering for ROW_NUMBER() <= 2.
+
+Real-life application: This is useful for finding the earliest entries, such as the first students to register for a class or the first sales made in a store.
