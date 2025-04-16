@@ -59,3 +59,14 @@ We used the ROW_NUMBER() window function to assign a unique row number to each s
 The first 2 records per class are selected by filtering for ROW_NUMBER() <= 2.
 
 Real-life application: This is useful for finding the earliest entries, such as the first students to register for a class or the first sales made in a store.
+
+6.Aggregation with Window Functions
+![Alt text](aggregation.jpg)
+
+In this query, we calculated the maximum score in each class as well as the overall maximum score:
+
+We used MAX() with PARTITION BY to get the maximum score within each class.
+
+We also computed the overall maximum score by using MAX() without partitioning.
+
+Real-life application: This type of analysis helps in understanding how well each category is performing compared to the overall performance. For instance, it could be used to see the best scores in a class or compare them to the highest score across all classes.
