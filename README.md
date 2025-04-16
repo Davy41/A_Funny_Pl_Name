@@ -12,3 +12,13 @@
    ![Alt text](top3incategory.jpg)
 
    here we created and inserted data into a table using normal sql queries
+
+2.Compare Values with Previous or Next Records
+![Alt text](comparevalues.jpg)
+
+We used LAG() and LEAD() to access the previous and next scores for each student based on the test date.
+
+This helps track score trends over time — useful in real-life for progress reports or identifying performance drops.
+
+The CASE expression converts the comparison into words like HIGHER, LOWER, or EQUAL.
+   
