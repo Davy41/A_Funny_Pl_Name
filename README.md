@@ -70,3 +70,21 @@ We used MAX() with PARTITION BY to get the maximum score within each class.
 We also computed the overall maximum score by using MAX() without partitioning.
 
 Real-life application: This type of analysis helps in understanding how well each category is performing compared to the overall performance. For instance, it could be used to see the best scores in a class or compare them to the highest score across all classes.
+
+# 📝 Conclusion
+
+In this assignment, we explored the power and flexibility of SQL Window Functions using a sample student_scores dataset. By leveraging functions like LAG(), LEAD(), RANK(), DENSE_RANK(), ROW_NUMBER(), and MAX() with the OVER() clause, we were able to:
+
+Compare each student's score with previous and next test entries to understand performance trends.
+
+Rank students within their classes, observing how RANK() and DENSE_RANK() handle ties differently.
+
+Identify the top 3 scoring students in each class accurately, even when scores are tied.
+
+Retrieve the earliest test records per class using date-based row numbering.
+
+Perform advanced aggregation to calculate both class-level and overall performance metrics.
+
+These techniques have real-world applications in performance tracking, reporting, and decision-making across domains like education, sales, HR, and finance.
+
+This project also helped strengthen collaboration and version control skills through GitHub, emphasizing team contribution and clear documentation.
