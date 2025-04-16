@@ -21,4 +21,17 @@ We used LAG() and LEAD() to access the previous and next scores for each student
 This helps track score trends over time — useful in real-life for progress reports or identifying performance drops.
 
 The CASE expression converts the comparison into words like HIGHER, LOWER, or EQUAL.
+
+3. RANK() vs DENSE_RANK()
+   ![Alt text](rankvdrank.jpg)
+
+    We used RANK() and DENSE_RANK() to rank students by their score within each class.
+
+The difference is:
+
+RANK() skips numbers if there's a tie (e.g., 1, 1, 3)
+
+DENSE_RANK() does not skip (e.g., 1, 1, 2)
+
+🔍 Real-life application: Useful in sports ranking, academic results, leaderboards — anywhere categories and ties matter.
    
