@@ -35,3 +35,15 @@ DENSE_RANK() does not skip (e.g., 1, 1, 2)
 
 🔍 Real-life application: Useful in sports ranking, academic results, leaderboards — anywhere categories and ties matter.
    
+
+4. Fetch the Top 3 Records from Each Category
+
+![Alt text](fetchtop.jpg)
+
+In this query, we retrieved the top 3 students from each class based on their scores.
+
+We used RANK() to assign ranks based on scores in descending order.
+
+Only the top 3 ranked students were selected.
+
+Real-life application: This is useful for leaderboards, where we want to highlight top performers.
